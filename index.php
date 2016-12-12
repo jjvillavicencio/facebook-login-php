@@ -12,11 +12,11 @@
   require_once "credentials.php";
 
  //CARGAR LA CONFIGURACIÓN DE LA APLICACIÓN EN EL SERVICIO FACEBOOK\FACEBOOK
- //$fb = new Facebook\Facebook([
- //  'app_id' => $app_id,
- //  'app_secret' => $app_secret,
- //  'default_graph_version' => 'v2.5'
- //  ]);
+ $fb = new Facebook\Facebook([
+   'app_id' => $app_id,
+   'app_secret' => $app_secret,
+   'default_graph_version' => 'v2.5'
+   ]);
 
  //INICIAR ASISTENTE PARA MANEHAR TOKEN DE ACCESO
  //$helper = $fb->getRedirectLoginHelper();
