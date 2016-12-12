@@ -7,7 +7,7 @@
   //INICIAMOS UNA SESION PARA ADMINISTRAR EL USUARIO
   session_start();
   //CARGAMOS EL SDK DE FACEBOOK
-  //require_once "php-graph-sdk-5.0.0/src/Facebook/autoload.php";
+  require_once "php-graph-sdk-5.0.0/src/Facebook/autoload.php";
   //CARGAMOS LAS CREDENCIALES DE APLICACION DE FACEBOOK
   require_once "credentials.php";
 
