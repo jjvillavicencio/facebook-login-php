@@ -1,8 +1,8 @@
 <?php
-/**
-* Facebook Access
-* Author: evilnapsis
-**/
+// /**
+// * Login con Facebook SDK 5.0.0
+// * Autor: John Jairo Villavicencio Sarango
+// **/
 
 //INICIAMOS LAS SESIONES DE PHP
 session_start();
@@ -50,7 +50,7 @@ echo " <a href='logout.php'>Salir</a>";
 }
 
 }else{
-  header("Location: login.php");
+  header("Location: index.php");
 
 }
 
