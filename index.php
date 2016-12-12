@@ -21,7 +21,8 @@
  //INICIAR ASISTENTE PARA MANEHAR TOKEN DE ACCESO
  $helper = $fb->getRedirectLoginHelper();
  //DESCRIBIR LOS PERMISOS A LOS QUE QUIERES ACCEDER DEL USUARIO
- //$permissions = ['email']; // permisos
+ $permissions = ['email']; // permisos
+ echo('acua2');
  //GENERAR LA URL PARA SOLICITAR EL LOGIN
  //$loginUrl = $helper->getLoginUrl($login_url, $permissions);
 
