@@ -36,7 +36,7 @@ try {
   $response = $fb->get('/me');
   $userNode = $response->getGraphUser();
   $plainOldArray = $response->getDecodedBody();
-  echo $plainOldArray;
+  print_r($plainOldArray);
 } catch(Facebook\Exceptions\FacebookResponseException $e) {
   echo 'Graph returned an error: ' . $e->getMessage();
   exit;
