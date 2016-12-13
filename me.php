@@ -45,8 +45,9 @@ try {
   exit;
 }
 
-echo 'Bienvenido ' . $userNode->getName();
-echo " <a href='logout.php'>Salir</a>";
+echo '</br>Bienvenido ' . $userNode->getName();
+echo '</br>Bienvenido ' . $userNode->getEmail();
+echo "</br><a href='logout.php'>Salir</a>";
 }
 
 }else{
