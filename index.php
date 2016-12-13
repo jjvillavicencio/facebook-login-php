@@ -22,9 +22,8 @@
  $helper = $fb->getRedirectLoginHelper();
  //DESCRIBIR LOS PERMISOS A LOS QUE QUIERES ACCEDER DEL USUARIO
  $permissions = ['email']; // permisos
- echo('acua2');
  //GENERAR LA URL PARA SOLICITAR EL LOGIN
- //$loginUrl = $helper->getLoginUrl($login_url, $permissions);
+ $loginUrl = $helper->getLoginUrl($login_url, $permissions);
 
  echo '<a href="' . htmlspecialchars($loginUrl) . '">Entrar con Facebook!222222</a>';
 
