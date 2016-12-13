@@ -19,7 +19,7 @@ require_once "credentials.php";
 $fb = new Facebook\Facebook([
   'app_id' => $app_id,
   'app_secret' => $app_secret,
-  'default_graph_version' => 'v2.5'
+  'default_graph_version' => 'v2.3'
   ]);
 
 //ALMACENAMOS EN UN AVARIABLE EL TOKEN DE LA SESION ACTUAL
