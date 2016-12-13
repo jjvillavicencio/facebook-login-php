@@ -25,6 +25,6 @@
  //GENERAR LA URL PARA SOLICITAR EL LOGIN
  $loginUrl = $helper->getLoginUrl($login_url, $permissions);
 
- echo '<a href="' . htmlspecialchars($loginUrl) . '">Entrar con Facebook!222222</a>';
+ echo '<a href="' . htmlspecialchars($loginUrl) . '">Entrar con Facebook!</a>';
 
 ?>
