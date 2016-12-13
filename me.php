@@ -33,7 +33,7 @@ $fb->setDefaultAccessToken($accessToken);
 
 //OBTENEMOS LOS DATOS DEL USUARIO LOGEADO
 try {
-  $response = $fb->get('/me');
+  $response = $fb->get('/me?fields=id,name,email');
   $userNode = $response->getGraphUser();
   $plainOldArray = $response->getDecodedBody();
   print_r($plainOldArray);
