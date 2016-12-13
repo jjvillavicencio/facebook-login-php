@@ -5,7 +5,7 @@
 **/
 
 //DEFINIMOS LA DIRECCION DE CALLBAK PARA EL LOGIN
-$login_url = "localhost/FB_LOGIN/callback.php";
+$login_url = "http://php5-facebook-login.44fs.preview.openshiftapps.com/callback.php";
 //DEFINIMOS EL ID DE NUESTRA APLICACIÓN DE FACEBOOK
 $app_id = "1063272277133283";
 //DEFINIMOS EL CODIGO SECRETO DE NUESTRA APLICACIÓN DE FACEBOOK
